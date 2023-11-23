@@ -25,9 +25,13 @@ do
 
         dconf write /org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/background-transparency-percent 20
         
-        dconf write /org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/use-system-font false
+        dconf write /org/gnome/desktop/interface/monospace-font-name "'Fira Code 12'"
 
-        dconf write /org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/font "'Fira Code 12'"
+        #dconf write /org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/use-system-font false
+
+        #dconf write /org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/font "'Fira Code 12'"
+
+        dconf write /org/gnome/terminal/legacy/profiles:/:$PROFILE_ID/audible-bell false
 
     else
         echo "Could not determine the profile ID."

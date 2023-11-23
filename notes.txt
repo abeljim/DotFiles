@@ -1,1 +1,4 @@
-install extenstion for tiling gaps and aylurs widgets
+install extenstion for tiling gaps
+need to figure out how to do it from cli later
+
+dconf watch /

@@ -2,7 +2,7 @@
 
 #install basics
 function basics {
-	sudo dnf install neovim zsh dconf gnome-tweaks util-linux-user -y
+	sudo dnf install neovim zsh dconf gnome-tweaks util-linux-user gnome-browser-connector -y
 	sudo dnf install gnome-extensions-app -y
 	sudo dnf install fira-code-fonts
 
